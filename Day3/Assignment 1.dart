@@ -1,24 +1,12 @@
 // 1. Explain the difference between Class and Object with a real-life example.
+/*
+Class: A class is a blueprint that defines the attributes and methods of something. 
+Object: An object is an instance of a class, a real entity that we can create and use in the program.
+Example:
+A class is like a blueprint of a car (it defines the model, color, and functions).
+An object is the actual car you can drive.
+*/
 
-class Car {
-  String brand;
-  String color;
-  int speed;
-
-  Car(this.brand, this.color, this.speed);
-
-  void drive() {
-    print("the car is $color $brand");
-  }
-}
-
-void main() {
-  Car car1 = Car("Toyota", "Red", 120);
-  Car car2 = Car("BMW", "Blue", 200);
-
-  car1.drive();
-  car2.drive();
-}
 //2. What is a Constructor? What types of constructors does Dart support?
 
 /*
@@ -94,5 +82,6 @@ void main() {
 
 //5. Why should we use a Setter instead of making a variable public?
 
-//Public variable → No control
+//Public variable → No controlM
 //Setter → Controlled access (with validation & security)
+
